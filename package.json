@@ -1,0 +1,21 @@
+{
+	"name": "parcel-setup",
+	"version": "1.0.0",
+	"description": "Basic Set Up",
+	"main": "index.js",
+	"author": "Anais",
+	"scripts": {
+		"start": "parcel index.html",
+		"build": "parcel build index.html"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"node-sass": "^4.9.1",
+		"react": "^16.4.1",
+		"react-dom": "^16.4.1"
+	},
+	"devDependencies": {
+		"babel-preset-env": "^1.7.0",
+		"babel-preset-react": "^6.24.1"
+	}
+}
