@@ -9,7 +9,7 @@ class HelloMessage extends React.Component {
 			<div>
 				<Header />
 				<div className="container">
-					<h1>Hello {this.props.name}</h1>
+					<h1>Hello</h1>
 				</div>
 			</div>
 		);
@@ -18,4 +18,4 @@ class HelloMessage extends React.Component {
 
 let App = document.getElementById('app');
 
-ReactDOM.render(<HelloMessage name="Yomi" />, App);
+ReactDOM.render(<HelloMessage />, App);
